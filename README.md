@@ -10,21 +10,21 @@ This project showcases a real-time healthcare data engineering pipeline that tra
   * Python
 
 ## Workflow
-__**Event Hub Setup**__
+### Event Hub Setup
 Created namespace and patient-flow hub with consumer groups for streaming into Databricks.
 
-__**Data Simulation**__
+### Data Simulation
 Built patient_flow_generator.py to continuously send synthetic patient data (department, wait time, discharge status) to Event Hub.
 
-__**Storage Configuration**__
+### Storage Configuration
 Set up ADLS Gen2 with bronze, silver, and gold containers.
 
-__**Databricks Processing**__
+### Databricks Processing
 Notebook 1: Ingests Event Hub stream into Bronze.
 Notebook 2: Cleans and standardizes schema.
 Notebook 3: Aggregates data and builds star-schema tables.
 
-__**Synapse SQL Pool**__
+### Synapse SQL Pool
 Provisioned dedicated SQL Pool and executed DDL scripts for fact/dimension tables.
 
 

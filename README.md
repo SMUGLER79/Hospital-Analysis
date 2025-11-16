@@ -9,6 +9,10 @@ This project showcases a real-time healthcare data engineering pipeline that tra
   * Power BI
   * Python
 
+## Database Schema
+
+<img width="1107" height="734" alt="image" src="https://github.com/user-attachments/assets/fd561e97-552b-4b00-8406-5dd46a5f3180" />
+
 ## Workflow
 ### Event Hub Setup
  * Created namespace and patient-flow hub with consumer groups for streaming into Databricks.
@@ -31,4 +35,6 @@ This project showcases a real-time healthcare data engineering pipeline that tra
 ## Data Analytics
 Used PowerBI to build an interactive dashboard for analysis and insights.
 
-<img width="1282" height="724" alt="image" src="https://github.com/user-attachments/assets/893706a7-5caf-4336-ad0f-afc4d809c1a1" />
+<img width="1123" height="634" alt="image" src="https://github.com/user-attachments/assets/634a6005-30b9-4458-be15-ad87c70fbd41" />
+
+

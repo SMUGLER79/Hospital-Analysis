@@ -32,7 +32,3 @@ Provisioned dedicated SQL Pool and executed DDL scripts for fact/dimension table
 Used PowerBI to build an interactive dashboard for analysis and insights.
 
 <img width="1282" height="724" alt="image" src="https://github.com/user-attachments/assets/893706a7-5caf-4336-ad0f-afc4d809c1a1" />
-
-Synapse SQL Pool
-
-Provisioned dedicated SQL Pool and executed DDL scripts for fact/dimension tables.
